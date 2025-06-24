@@ -21,20 +21,20 @@
 title: Thomas' Blog
 email: heniart.thomas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I write posts combining my deep passion for craft as practices with my knowledge in Advertising, Marketing, Growth Hacking and expertise in legacy code transformation, turning legacy chaos into elegant, maintainable systems.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: "Thomas-Heniart.github.io"
 url: "https://Thomas-Heniart.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ThomasHeniart
-github_username:  Thomas-Heniart
+github_username: Thomas-Heniart
 google_analytics: "G-M0Y7KH5CY7"
 
 # Build settings
 theme: minima
 minima:
-  include_head: true
+  nav_pages:
+    - about.md
+    - 2025-06-18-test.md
 plugins:
   - jekyll-feed
 
